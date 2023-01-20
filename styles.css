@@ -9,31 +9,32 @@ header {}
 
 nav {}
 
-#navbar {}
-
-#navbox {
-    
-}
 ul{
     display: inline-flex;
+    margin: 10px;
 }
-ul a li{
+ul a{
     text-decoration: none;
-    list-style: none;
 }
 li {
     font-weight: 600;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Alata', sans-serif;
     list-style: none;
-    text-decoration: none;
     margin: 20px;
 }
-#home {
-    
+
+#home:hover {
+    color: brown;
 }
 
-#blog {}
+#blog:hover {
+    color: tomato;
+}
 
-#services {}
+#services:hover {
+    color: cadetblue;
+}
 
-#about {}
+#about:hover {
+    color: darkgoldenrod;
+}

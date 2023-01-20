@@ -12,11 +12,14 @@ nav {}
 #navbar {}
 
 #navbox {
-    text-decoration: none;
-    list-style: none;
+    
 }
 ul{
     display: inline-flex;
+}
+ul a li{
+    text-decoration: none;
+    list-style: none;
 }
 li {
     font-weight: 600;
@@ -25,11 +28,8 @@ li {
     text-decoration: none;
     margin: 20px;
 }
-
 #home {
-    text-decoration: none;
-    list-style: none;
-
+    
 }
 
 #blog {}

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header {}
+
+nav {}
+
+#navbar {}
+
+#navbox {
+    text-decoration: none;
+    list-style: none;
+}
+ul{
+    display: inline-flex;
+}
+li {
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#home {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#blog {}
+
+#services {}
+
+#about {}

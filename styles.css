@@ -10,6 +10,11 @@
     --color-background-secondary: #DAEFB3;
     --color-background: #EA9E8D;
     --color: #D64550;
+    --color-text-r: #F6511D;
+    --color-background-primary-r: #FFB400;
+    --color-background-secondary-r: #00A6ED;
+    --color-background-r: #7FB800;
+    --color-r: #0D2C54;
     --border-radius-primary: 22px;
 }
 header {}

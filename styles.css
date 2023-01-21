@@ -47,7 +47,6 @@ li {
     margin-left: 10px;
     font-family: 'Alata', sans-serif;
     color: #fff;
-    cp
 }
 #about{
     order: 2;
@@ -75,7 +74,6 @@ li {
 
 #about:hover {
     color: darkgoldenrod;
-    border: 2px solid tomato;
 }
 @media screen and (max-width: 500px) {
     #nav{

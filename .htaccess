@@ -1,0 +1,18 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^neerajrekwar.github.io[nc]
+RewriteRule ^(.*)$ http://www.neerajrekwar.github.io/$1 [r=301,nc]
+
+//Caching schema
+<FilesMatch "\.(jpg|png|js|scss|css|html|xml)$">
+Header set Cache-Control "private, max-age=0"
+</FilesMatch>
+
+//Password Protect file
+<Files /admin>
+AuthName "Prompt"
+AuthType Basic
+AuthUserFile 
+Require valid-user
+</Files>

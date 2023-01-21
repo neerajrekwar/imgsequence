@@ -44,7 +44,19 @@ li {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
+    margin-left: 10px;
     font-family: 'Alata', sans-serif;
+    color: #fff;
+}
+#about{
+    order: 2;
+    /* border-style: dashed; */
+    stroke: #00A6ED;
+
+}
+#blog{
+    order: var(--color-background-secondary-r);
+    
 }
 #home:hover {
     color: brown;
@@ -59,8 +71,11 @@ li {
 }
 
 #about:hover {
-    color: darkgoldenro
+    color: darkgoldenrod;
 }
 @media screen and (max-width: 500px) {
+    #nav{
+        display: none;
+    }
     
 }

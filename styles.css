@@ -47,6 +47,7 @@ li {
     margin-left: 10px;
     font-family: 'Alata', sans-serif;
     color: #fff;
+    cp
 }
 #about{
     order: 2;
@@ -54,6 +55,7 @@ li {
     stroke: #00A6ED;
 
 }
+
 #blog{
     order: var(--color-background-secondary-r);
     
@@ -70,8 +72,10 @@ li {
     color: cadetblue;
 }
 
+
 #about:hover {
     color: darkgoldenrod;
+    border: 2px solid tomato;
 }
 @media screen and (max-width: 500px) {
     #nav{

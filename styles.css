@@ -5,32 +5,35 @@
     color: black;
 }
 :root {
-    --color-text: #1C2826;
-    --color-background-primary: #EEF4D4;
-    --color-background-secondary: #DAEFB3;
-    --color-background: #EA9E8D;
-    --color: #D64550;
     --color-text-r: #F6511D;
     --color-background-primary-r: #FFB400;
     --color-background-secondary-r: #00A6ED;
     --color-background-r: #7FB800;
-    --color-r: #0D2C54;
+    --color-r: #273a37;
     --border-radius-primary: 22px;
 }
-header {}
+header {
+    max-width: 100%;
+    background-color: var(--color-r);
+}
 
 nav {
-    background-color: var(--color-text);
+    backdrop-filter: blur(4px);
+    background-color: var(--color-background-secondary-r);
 }
 
 ul{
     display: inline-flex;
-    margin: 10px;
+    justify-content: end;
+    align-items: flex-end;
+    border: 2px solid var(--color-background-primary-r);
+    width: 100%;
     color: aliceblue;
+    background: var(--color-background-r);
+    backdrop-filter: blur(10px);
 }
 ul a{
     text-decoration: none;
-    backdrop-filter: blur(4px);
 }
 li {
     font-weight: 600;

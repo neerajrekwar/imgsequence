@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     /* max-width: 100%; */
-    width: auto;
+    width: 100%;
     background-color: var(--color-r);
     height: auto;
     /* margin: 3px; */
@@ -39,14 +39,16 @@ li {
     list-style: none;
     color: aliceblue;
     /* border: 2px solid olive; */
+    font-size: 14px;
 }
 #logo {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-left: 10px;
+    margin: 10px 20px 10px ;
     font-family: 'Alata', sans-serif;
     color: #fff;
+    cursor: pointer;
 }
 #about{
     order: 2;

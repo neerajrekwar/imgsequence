@@ -31,6 +31,7 @@ header {
   
   main {
     /* border: 2px solid darkblue; */
+    margin: 0;
   }  
   nav {
     color: rgb(0, 0, 0);
@@ -62,6 +63,8 @@ header {
     text-decoration: none;
     color: greenyellow;
   }
+  
+
   #logo{
     margin-left: 20px;
     font-size: 2em;

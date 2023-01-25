@@ -1,4 +1,5 @@
-* { /*# sourceMappingURL=styles.css.map */
+* {
+  /*# sourceMappingURL=styles.css.map */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,10 +8,11 @@
 }
 
 header {
+  position: -webkit-sticky;
   position: sticky;
   /* border: 2px solid greenyellow; */
   width: auto;
-  height: auto;
+  height: 15em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +23,7 @@ header {
 
 body {
   margin: 0 auto;
-  background: #284B63;
+  background: #284b63;
   width: auto;
   /* height: inherit; */
 }
@@ -48,7 +50,7 @@ li {
   margin: 10px;
   list-style: none;
   /* text-decoration-line: underline;	
-  text-decoration-thickness: 4px; */
+    text-decoration-thickness: 4px; */
 }
 
 a {
@@ -78,12 +80,12 @@ a {
 
 .nvlink:hover::before {
   /* text-decoration-line: underline;	
-  text-decoration-thickness: 4px; */
+    text-decoration-thickness: 4px; */
   scale: 1;
 }
 
 #home:hover::before {
-  background-color: #F6511D;
+  background-color: #f6511d;
 }
 
 #logo {
@@ -101,20 +103,16 @@ a {
   }
 }
 .container {
-  background: rgba(127, 176, 250, 0.2941176471);
-  color: #fff;
-  width: auto;
-}
-.imp-comta{
-  width: max-content;
+  background: #000;
+  box-sizing: content-box;
 }
 
 .sub-container {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  color: #F6511D;
+  color: #f6511d;
   bottom: 20px;
 }
 
@@ -123,19 +121,17 @@ figure {
   display: flex;
   flex-flow: column;
   padding: 5px;
-  max-width: min-content;
-  text-align: center;
+  max-width: 420px;
   margin: auto;
 }
 
-.fugimg {
-  margin: 0 auto;
-  max-width: 420px;
-  min-height: 150px;
+img {
+  max-width: 520px;
+  max-height: 350px;
 }
 
 figcaption {
-  background-color: rgba(156, 64, 64, 0.459);
+  background-color: rgba(29, 29, 29, 0.459);
   color: #fff;
   font-family: italic smaller sans-serif;
   padding: 3px;

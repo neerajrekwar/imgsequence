@@ -34,7 +34,6 @@ main {
 }
 
 nav {
-  color: rgb(0, 0, 0);
   margin-right: 50px;
 }
 
@@ -103,7 +102,9 @@ a {
   }
 }
 .container {
-  background: #000;
+  background: rgba(58, 95, 151, 0.294);
+  width: 90%;
+  display: contents;
   box-sizing: content-box;
 }
 

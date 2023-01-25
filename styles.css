@@ -34,6 +34,7 @@ main {
 }
 
 nav {
+  color: rgb(0, 0, 0);
   margin-right: 50px;
 }
 
@@ -78,8 +79,9 @@ a {
 }
 
 .nvlink:hover::before {
-  /* text-decoration-line: underline;	
-    text-decoration-thickness: 4px; */
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 4px;
   scale: 1;
 }
 
@@ -102,13 +104,15 @@ a {
   }
 }
 .container {
-  background: rgba(58, 95, 151, 0.294);
+  background: rgba(25, 62, 117, 0.294);
   width: 90%;
   display: contents;
   box-sizing: content-box;
+  border: 2px solid green;
 }
 
 .sub-container {
+  background: rgba(25, 62, 117, 0.294);
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
@@ -128,7 +132,6 @@ figure {
 
 img {
   max-width: 520px;
-  max-height: 350px;
 }
 
 figcaption {

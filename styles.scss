@@ -1,4 +1,4 @@
-@use 'styles' as *;
+@forward 'stylesG';
 * {
   /*# sourceMappingURL=styles.css.map */
   box-sizing: border-box;
@@ -21,6 +21,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   width: 100%;
   background-color: var(--color-background-primary-r);
 }
@@ -97,11 +98,6 @@ a {
   text-decoration-thickness: 4px;
 }
 
-@mixin screen {
-  .nvlink {
-    display: none;
-  }
-}
 .container {
   background: rgba(25, 62, 117, 0.294);
   width: 100%;
@@ -109,6 +105,9 @@ a {
   // background: #000;
   box-sizing: content-box;
   border: 2px solid green;
+}
+.imp-comta{
+  background: #c0c0c0;
 }
 .sub-container {
   display: inline-flex;
@@ -126,6 +125,7 @@ figure {
   padding: 5px;
   max-width: 420px;
   margin: auto;
+  border-radius: 20px;
 }
 
 img {
@@ -139,11 +139,6 @@ figcaption {
   font-family: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
+  grid-template: random($limit: 5);
 }
-@mixin screen and (max-width: 500px) {
-  .nvlink {
-    display: none;
-  }
-}
-
 /*# sourceMappingURL=styles.css.map */

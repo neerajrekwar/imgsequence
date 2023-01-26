@@ -129,11 +129,6 @@ figure {
   max-width: 420px;
   margin: auto;
 }
-
-img {
-  max-width: 520px;
-}
-
 figcaption {
   background-color: rgba(29, 29, 29, 0.459);
   color: #fff;

@@ -155,4 +155,9 @@ figcaption {
   padding: 3px;
   text-align: center;
 }
+@media screen and (max-width: 500px) {
+ .navbar{
+  display: none;
+ }  
+}
 /*# sourceMappingURL=styles.css.map */

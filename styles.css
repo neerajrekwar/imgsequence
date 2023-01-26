@@ -148,4 +148,9 @@ figcaption {
   text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+  .navbar {
+    display: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */

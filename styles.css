@@ -30,6 +30,7 @@ body {
 main {
   /* border: 2px solid darkblue; */
   margin: 0;
+  width: 100%;
 }
 
 nav {
@@ -99,7 +100,7 @@ a {
 
 .container {
   background: rgba(25, 62, 117, 0.294);
-  width: 100%;
+  width: auto;
 }
 
 .imp-comta {
@@ -108,7 +109,7 @@ a {
   margin: 2em;
 }
 .imp-comta h1 {
-  color: #636060;
+  color: #fcfcfc;
   margin: 1rem;
 }
 
@@ -118,13 +119,14 @@ a {
 }
 
 .sub-container {
-  display: inline-flex;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 50px;
   color: #f6511d;
   bottom: 20px;
-  border: 2px solid rgb(212, 206, 197);
+}
+.sub-containerarticle-box {
+  display: grid;
 }
 
 figure {
@@ -149,10 +151,7 @@ figcaption {
 }
 
 @media screen and (max-width: 500px) {
-  .navbar {
-    display: none;
-  }
-  .navbarnvlink {
+  nav {
     display: none;
   }
 }

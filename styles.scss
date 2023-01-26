@@ -158,6 +158,9 @@ figcaption {
 @media screen and (max-width: 500px) {
  .navbar{
   display: none;
+  &nvlink{
+    display: none;
+  }
  }  
 }
 /*# sourceMappingURL=styles.css.map */

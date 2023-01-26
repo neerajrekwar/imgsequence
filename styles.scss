@@ -17,13 +17,12 @@ header {
   position: sticky;
   /* border: 2px solid greenyellow; */
   width: auto;
-  height: 15em;
+  height: 4em;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   background-color: var(--color-background-primary-r);
-  height: auto;
 }
 
 body {
@@ -98,24 +97,13 @@ a {
   text-decoration-thickness: 4px;
 }
 
-@mixin screen and (max-width: 500px) {
+@mixin screen {
   .nvlink {
     display: none;
   }
 }
-@mixin screen and (max-width: 500px) {
-  .nvlink {
-    display: none;
-  }
-}
-@mixin screen and (max-width: 500px) {
-  .nvlink {
-    display: none;
-  }
-}
-
 .container {
-  background: $color-background-primary;
+  background: rgba(25, 62, 117, 0.294);
   width: 100%;
   display: contents;
   // background: #000;

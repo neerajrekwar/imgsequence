@@ -12,13 +12,13 @@ header {
   position: sticky;
   /* border: 2px solid greenyellow; */
   width: auto;
-  height: 15em;
+  height: 4em;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   background-color: var(--color-background-primary-r);
-  height: auto;
+  
 }
 
 body {

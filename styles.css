@@ -1,20 +1,14 @@
-// @import 'styles';
 * {
   /*# sourceMappingURL=styles.css.map */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
   color: black;
   font-family: "Alata", sans-serif;
 }
-$color-background-primary: #7fb0fa4b;
-// --color-text-r: #F6511D;
-// --color-background-secondary-r: #00A6ED;
-// --color-background-r: #7FB800;
-// --border-radius-primary: 22px;
 
 header {
+  position: -webkit-sticky;
   position: sticky;
   /* border: 2px solid greenyellow; */
   width: auto;
@@ -22,7 +16,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   width: 100%;
   background-color: var(--color-background-primary-r);
 }
@@ -48,7 +41,8 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 25px;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
 }
 
 li {
@@ -82,11 +76,14 @@ a {
   transform-origin: left;
   transition: scale 0.25s;
 }
+
 .nvlink:hover::before {
-  text-decoration-line: underline;	
-  text-decoration-thickness: 4px; 
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 4px;
   scale: 1;
 }
+
 #home:hover::before {
   background-color: #f6511d;
 }
@@ -95,45 +92,41 @@ a {
   margin-left: 0.8em;
   font-size: 2em;
   font-weight: bold;
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   text-decoration-thickness: 4px;
 }
 
 .container {
   background: rgba(25, 62, 117, 0.294);
   width: 100%;
-  // display: contents;
-  // background: #000;
-  // box-sizing: content-box;
-  // border: 6px solid blanchedalmond;
-  
 }
-.imp-comta{
+
+.imp-comta {
   display: flex;
-  padding:15px;
+  padding: 15px;
   margin: 2em;
-  // background: rgba(141, 190, 66, 0.596);
-  h1{
-    color: #636060;
-    margin: 1rem;
-  }
+}
+.imp-comta h1 {
+  color: #636060;
+  margin: 1rem;
 }
 
 .info-box {
-  // background: #fef;
   margin: 12px;
   padding: 20px;
 }
+
 .sub-container {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
   color: #f6511d;
-  // color: #000;
   bottom: 20px;
   border: 2px solid rgb(212, 206, 197);
 }
+
 figure {
   border: thin #c0c0c0 solid;
   display: flex;
@@ -145,7 +138,6 @@ figure {
 
 img {
   max-width: 520px;
-  // max-height: 350px;
 }
 
 figcaption {
@@ -155,4 +147,5 @@ figcaption {
   padding: 3px;
   text-align: center;
 }
-/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */

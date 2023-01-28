@@ -75,18 +75,11 @@ a {
   border-radius: 0px;
   scale: 0 1;
   transform-origin: left;
-  transition: scale 0.25s;
+  transition: scale 0.55s;
 }
 
 .nvlink:hover::before {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  text-decoration-thickness: 4px;
   scale: 1;
-}
-
-#home:hover::before {
-  background-color: #f6511d;
 }
 
 #logo {
@@ -101,32 +94,26 @@ a {
 .container {
   background: rgba(25, 62, 117, 0.294);
   width: auto;
-}
-
-.imp-comta {
-  display: flex;
-  padding: 15px;
-  margin: 2em;
-}
-.imp-comta h1 {
-  color: #fcfcfc;
-  margin: 1rem;
-}
-
-.info-box {
-  margin: 12px;
-  padding: 20px;
+  display: contents;
+  background: #000;
+  box-sizing: content-box;
+  border: 6px solid blanchedalmond;
 }
 
 .sub-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #f6511d;
-  bottom: 20px;
+  border: 2px solid turquoise;
 }
-.sub-containerarticle-box {
-  display: grid;
+
+h1 {
+  color: #fcfcfc;
+  margin-bottom: 2rem;
+}
+
+.info-box {
+  border: 2px solid yellow;
+  margin: 12px;
+  padding: 20px;
+  display: flex;
 }
 
 figure {
@@ -150,9 +137,14 @@ figcaption {
   text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   nav {
     display: none;
+  }
+  .imp-comta {
+    display: inline-flex;
+    padding: 15px;
+    margin: 20px;
   }
 }
 /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */

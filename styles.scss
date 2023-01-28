@@ -102,9 +102,8 @@ a {
 .container {
   background: rgba(25, 62, 117, 0.294);
   width: auto;
-  display: contents;
   background: #000;
-  box-sizing: content-box;
+  display: flex;
   border: 6px solid blanchedalmond;
 }
 .sub-container{
@@ -124,7 +123,12 @@ h1{
   display: flex;
 }
 .info-div{
+  
+  &text-btn{
+    display: inline-flex;
+  }
 }
+
 
 figure {
   border: thin #c0c0c0 solid;

@@ -89,7 +89,7 @@ a {
   /* letter-spacing: -3.2px; */
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  text-decoration-thickness: 4px;
+  text-decoration-thickness: 6px;
 }
 
 .container {

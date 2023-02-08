@@ -151,7 +151,7 @@ figcaption {
     display: none;
   }
   body {
-    margin: 0 auto;
+    margin: 0;
     /* background: #284b63; */
     background-image: url(images/bg-wlpar.jpg);
     width: 100%;

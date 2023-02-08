@@ -25,6 +25,7 @@ body {
   background: #284b63;
   width: auto;
   /* height: inherit; */
+  background-image: url(/images/bg-wlpar.jpg);
 }
 
 main {

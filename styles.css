@@ -154,7 +154,7 @@ figcaption {
     margin: 0;
     /* background: #284b63; */
     background-image: url(images/bg-wlpar.jpg);
-    width: 100%;
+    width: 50%;
     max-height: 100px;
     -o-object-fit: cover;
        object-fit: cover;

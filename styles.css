@@ -32,6 +32,7 @@ body {
   margin-bottom: 18px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -125,35 +126,3 @@ h1 {
   display: flex;
 }
 
-figure {
-  border: thin #c0c0c0 solid;
-  display: flex;
-  flex-flow: column;
-  padding: 5px;
-  max-width: 420px;
-  margin: auto;
-}
-
-img {
-  max-width: 520px;
-}
-
-figcaption {
-  background-color: rgba(29, 29, 29, 0.459);
-  color: #fff;
-  font-family: italic smaller sans-serif;
-  padding: 3px;
-  text-align: center;
-}
-
-@media screen and (max-width: 600px) {
-  nav {
-    display: none;
-  }
-  .imp-comta {
-    display: inline-flex;
-    padding: 15px;
-    margin: 20px;
-  }
-}
-/*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */

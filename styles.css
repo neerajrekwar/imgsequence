@@ -53,6 +53,9 @@ main {
   border-radius: 10px;
 }
 .pack-box{
+  display: grid;
+  justify-content: center;
+  align-items: center;
   margin: 5px;
   padding: 10;
   width: 250px;

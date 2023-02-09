@@ -55,7 +55,7 @@ main {
 .pack-box{
   width: 150px;
   height: 250px;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: rgba(36, 230, 230, 0.664);
 }
 nav {

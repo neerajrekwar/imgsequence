@@ -155,24 +155,4 @@ figcaption {
   nav {
     display: none;
   }
-  body {
-    margin: 0;
-    /* background: #284b63; */
-    background-image: url(images/bg-wlpar.jpg);
-    width: 50%;
-    max-height: 100px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    margin-bottom: 18px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-  }
-  .imp-comta {
-    display: inline-flex;
-    padding: 15px;
-    margin: 20px;
-  }
-}
 /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */

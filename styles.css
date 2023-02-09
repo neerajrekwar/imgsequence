@@ -40,7 +40,8 @@ main {
   margin: 0 auto;
   /* border: 2px solid rgb(181, 181, 192); */
   width: 69.99%;
-  height: 544px;
+  max-height: max-content;
+  height: auto;
   background-color: #c0c0c063;
   border-radius: 10px;
 }

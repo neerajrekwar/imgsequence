@@ -41,7 +41,9 @@ body {
 }
 
 main {
-  display: inline-flex;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   margin: 0 auto;
   /* border: 2px solid rgb(181, 181, 192); */
   width: 69.99%;

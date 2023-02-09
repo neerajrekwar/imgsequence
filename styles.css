@@ -46,7 +46,10 @@ main {
   background-color: #c0c0c063;
   border-radius: 10px;
 }
-
+.pack-box{
+  width: 150px;
+  height: 150px;
+}
 nav {
   color: rgb(0, 0, 0);
   margin-right: 50px;

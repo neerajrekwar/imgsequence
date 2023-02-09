@@ -37,14 +37,9 @@ body {
 
 main {
   margin: 0 auto;
-  border: 2px solid rgb(181, 181, 192);
+  /* border: 2px solid rgb(181, 181, 192); */
   width: 69.99%;
-  height: 40%;
-}
-body main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 444px;
   background-color: #c0c0c063;
 }
 

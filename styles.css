@@ -41,9 +41,8 @@ body {
 }
 
 main {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  display: grid;
+
   margin: 0 auto;
   /* border: 2px solid rgb(181, 181, 192); */
   width: 69.99%;
@@ -79,7 +78,7 @@ li {
 }
 
 a {
-  
+
   font-size: larger;
   text-decoration: none;
   color: greenyellow;
@@ -167,6 +166,9 @@ figcaption {
 @media screen and (max-width: 600px) {
   nav {
     display: none;
+  }
+  main{
+    display: inline-flex;
   }
   
 /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */

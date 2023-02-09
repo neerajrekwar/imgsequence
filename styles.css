@@ -42,7 +42,7 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 20px;
   margin: 0 auto;
   /* border: 2px solid rgb(181, 181, 192); */

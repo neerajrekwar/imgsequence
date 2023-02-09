@@ -44,6 +44,9 @@ main {
   border-radius: 10px;
 }
 .pack-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 150px;
   height: 150px;
 }

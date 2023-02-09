@@ -42,7 +42,7 @@ body {
 
 main {
   display: grid;
-
+  gap: 5px;
   margin: 0 auto;
   /* border: 2px solid rgb(181, 181, 192); */
   width: 69.99%;

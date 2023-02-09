@@ -40,7 +40,11 @@ main {
   border: 2px solid rgb(181, 181, 192);
   width: 69.99%;
   height: 600px;
-  
+}
+body main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {

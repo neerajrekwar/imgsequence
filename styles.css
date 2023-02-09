@@ -44,6 +44,7 @@ main {
   width: 69.99%;
   height: 544px;
   background-color: #c0c0c063;
+  border-radius: 10px;
 }
 
 nav {

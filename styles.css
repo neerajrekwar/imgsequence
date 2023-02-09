@@ -36,7 +36,10 @@ body {
 }
 
 main {
+  margin: 0 auto;
   border: 2px solid rgb(181, 181, 192);
+  width: 69.99%;
+  height: 600px;
   
 }
 

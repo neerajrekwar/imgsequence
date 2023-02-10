@@ -175,6 +175,9 @@ figcaption {
   nav {
     display: none;
   }
+  main{
+    background-image: url(images/bg-wlpar.jpg);
+  }
   
   
 /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */

@@ -51,7 +51,7 @@ body {
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 20px;
+  gap: 10px;
   margin: 0;
   margin-top: 0 auto;
   margin-bottom: 0 auto;
@@ -69,8 +69,8 @@ main {
   align-items: center;
   margin: 5px;
   padding: 10;
-  width: auto;
-  height: auto;
+  width: 180%;
+  height: 180%;
   border-radius: 10px;
   background-color: rgba(36, 230, 230, 0.664);
 }

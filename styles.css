@@ -26,9 +26,6 @@ header {
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0;
   /* background: #284b63; */
   background-image: url(images/bg-wlpar.jpg);

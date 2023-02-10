@@ -48,7 +48,7 @@ main {
   /* border: 2px solid rgb(181, 181, 192); */
   width: 69.99%;
   max-height: max-content;
-  height: auto;
+  height: 544px auto;
   background-color: #c0c0c063;
   border-radius: 10px;
 }

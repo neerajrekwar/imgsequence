@@ -52,7 +52,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 10px;
-  margin: 0;
+  margin: 0 auto;
   margin-top: 0 auto;
   margin-bottom: 0 auto;
   /* border: 2px solid rgb(181, 181, 192); */

@@ -70,8 +70,8 @@ main {
   display: grid;
   justify-content: center;
   align-items: center;
-  margin: 5px;
   padding: 10;
+  margin: 20px 20px 0px 20px ;
   /* width: auto;
   height: auto; */
   border-radius: 10px;

@@ -51,7 +51,9 @@ main {
   margin: 0 auto;
   /* border: 2px solid rgb(181, 181, 192); */
 }
-
+.container{
+  background: #c0c0c036;
+}
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

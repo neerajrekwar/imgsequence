@@ -21,8 +21,8 @@ p, div {
 }
 
 header {
-  position: -webkit-sticky;
-  position: sticky;
+  position: -webkit-absolute;
+  position: absolute;
   /* border: 2px solid greenyellow; */
   width: auto;
   height: 4em;

@@ -51,14 +51,19 @@ main {
   margin: 0 auto;
   /* border: 2px solid rgb(181, 181, 192); */
 }
-.container{
-  background: #c0c0c036;
+.container {
+  background: rgba(25, 62, 117, 0.294);
+  width: auto;
+  display: contents;
+  background: #000;
+  box-sizing: content-box;
+  border: 6px solid blanchedalmond;
 }
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 5px;
-  background-color: rgb(31, 88, 88);
+  /* background-color: rgb(31, 88, 88); */
   height: auto;
 }
 .card{
@@ -67,6 +72,7 @@ main {
   align-items: center;
   text-align: center;
   background-color: rgb(65, 116, 116);
+  backdrop-filter: blur(4px);
   margin: 20px 20px 0px 20px;
   border-radius: 15px;
 }
@@ -140,14 +146,6 @@ a {
   text-decoration-thickness: 6px;
 }
 
-.container {
-  background: rgba(25, 62, 117, 0.294);
-  width: auto;
-  display: contents;
-  background: #000;
-  box-sizing: content-box;
-  border: 6px solid blanchedalmond;
-}
 
 .sub-container {
   border: 2px solid turquoise;

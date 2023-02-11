@@ -60,6 +60,7 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   gap: 5px;
   width: 69.99%;
+  margin: 0 auto;
   max-height: max-content;
   height: 544px auto;
   background-color: #c0c0c063;

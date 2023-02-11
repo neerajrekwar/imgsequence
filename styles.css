@@ -54,28 +54,33 @@ main {
   margin-bottom: 0 auto;
   /* border: 2px solid rgb(181, 181, 192); */
 }
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 5px;
-  width: 69.99%;
-  margin: 0 auto;
-  max-height: max-content;
-  background-color: #c0c0c063;
-  border-radius: 10px;
+  background-color: rgb(31, 88, 88);
+  height: auto;
 }
-.card {
+.card{
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 10;
-  margin: 10px 10px 0px 10px ;
-  /* width: auto;
-  height: auto; */
-  border-radius: 10px;
-  background-color: rgba(36, 230, 230, 0.664);
+  text-align: center;
+  background-color: rgb(65, 116, 116);
+  margin: 20px 20px 0px 20px;
+  border-radius: 15px;
 }
-
+h1{
+  /* text-align: left; */
+  color: beige;
+  font-size: 1.5em;
+  margin: 20px 3px;
+}
+p{
+  margin: 20px 5px;
+  color: #353535;
+}
 nav {
   color: rgb(0, 0, 0);
   margin-right: 50px;

@@ -61,7 +61,7 @@ main {
 }
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(33.3333333333%, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(33.3333333333%, 3fr));
   gap: 5px;
   /* background-color: rgb(31, 88, 88); */
   height: auto;

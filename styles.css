@@ -55,7 +55,7 @@ main {
   backdrop-filter: blur(4px);
 }
 .container {
-  border: 6px solid blanchedalmond;
+  /* border: 6px solid blanchedalmond; */
 }
 .cards {
   display: grid;

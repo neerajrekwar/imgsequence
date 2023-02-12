@@ -36,6 +36,7 @@ header {
 body {
   margin: 0;
   /* background: #284b63; */
+  background: rgba(25, 62, 117, 0.294);
 }
 
 main {
@@ -53,9 +54,7 @@ main {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  /* background: rgba(25, 62, 117, 0.294); */
   width: auto;
-  
   box-sizing: content-box;
   border: 6px solid blanchedalmond;
 }

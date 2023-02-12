@@ -55,7 +55,6 @@ main {
 .container {
   background: rgba(25, 62, 117, 0.294);
   width: auto;
-  display: contents;
   background: #000;
   box-sizing: content-box;
   border: 6px solid blanchedalmond;
@@ -125,7 +124,6 @@ a {
   width: 100%;
   height: 1px;
   background-color: greenyellow;
-  border-radius: 0px;
   scale: 0 1;
   transform-origin: left;
   transition: scale 0.32s;

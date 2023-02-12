@@ -36,6 +36,14 @@ header {
 body {
   margin: 0;
   /* background: #284b63; */
+}
+
+main {
+  margin: 0 auto;
+  /* border: 2px solid rgb(181, 181, 192); */
+  backdrop-filter: blur(4px);
+}
+.container {
   background-image: url(images/bg-wlpar.jpg);
   width: 100%;
   -o-object-fit: contain;
@@ -45,17 +53,8 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-}
-
-main {
-  margin: 0 auto;
-  /* border: 2px solid rgb(181, 181, 192); */
-  backdrop-filter: blur(4px);
-}
-.container {
-  background: rgba(25, 62, 117, 0.294);
+  /* background: rgba(25, 62, 117, 0.294); */
   width: auto;
-  background: #000;
   box-sizing: content-box;
   border: 6px solid blanchedalmond;
 }

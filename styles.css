@@ -55,6 +55,7 @@ main {
   background-position: center;
   /* background: rgba(25, 62, 117, 0.294); */
   width: auto;
+  
   box-sizing: content-box;
   border: 6px solid blanchedalmond;
 }

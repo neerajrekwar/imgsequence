@@ -56,7 +56,7 @@ main {
   background-position: center;
   width: auto;
   box-sizing: content-box;
-  border: 6px solid blanchedalmond;
+  /* border: 6px solid blanchedalmond; */
 }
 .cards {
   display: grid;

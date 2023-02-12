@@ -50,6 +50,7 @@ body {
 main {
   margin: 0 auto;
   /* border: 2px solid rgb(181, 181, 192); */
+  backdrop-filter: blur(4px);
 }
 .container {
   background: rgba(25, 62, 117, 0.294);

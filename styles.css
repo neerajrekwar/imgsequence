@@ -142,41 +142,8 @@ a {
 }
 
 
-.sub-container {
-  border: 2px solid turquoise;
-}
-
-h1 {
-  color: #fcfcfc;
-  margin-bottom: 2rem;
-}
-
-.info-box {
-  border: 2px solid yellow;
-  margin: 12px;
-  padding: 20px;
+footer{
   display: flex;
-}
-
-figure {
-  border: thin #c0c0c0 solid;
-  display: flex;
-  flex-flow: column;
-  padding: 5px;
-  max-width: 420px;
-  margin: auto;
-}
-
-img {
-  max-width: 520px;
-}
-
-figcaption {
-  background-color: rgba(29, 29, 29, 0.459);
-  color: #fff;
-  font-family: italic smaller sans-serif;
-  padding: 3px;
-  text-align: center;
 }
 
 @media screen and (max-width: 500px) {

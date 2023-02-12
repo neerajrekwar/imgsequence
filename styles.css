@@ -61,7 +61,7 @@ main {
 }
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(362px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(33.3333333333%, 1fr));
   gap: 5px;
   /* background-color: rgb(31, 88, 88); */
   height: auto;
@@ -102,8 +102,6 @@ ul {
 li {
   margin: 1em;
   list-style: none;
-  /* text-decoration-line: underline;	
-    text-decoration-thickness: 4px; */
 }
 
 a {

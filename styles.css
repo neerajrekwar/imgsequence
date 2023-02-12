@@ -51,7 +51,7 @@ body {
 
 main {
   margin: 0 auto;
-  border: 2px solid rgb(181, 181, 192);
+  /* border: 2px solid rgb(181, 181, 192); */
   backdrop-filter: blur(4px);
 }
 .container {

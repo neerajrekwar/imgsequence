@@ -150,6 +150,7 @@ a {
 
 
 footer{
+  border: 2px solid greenyellow;
   display: flex;
   color: aliceblue;
 }

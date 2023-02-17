@@ -50,13 +50,10 @@ body {
 }
 
 main {
-  margin: 0 auto;
   /* border: 2px solid rgb(181, 181, 192); */
-  backdrop-filter: blur(4px);
 }
 .container {
   margin: 0 auto;
-  /* border: 6px solid blanchedalmond; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,11 +61,10 @@ main {
 .cards {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250, 2fr));
   gap: 5px;
   justify-content: center;
   align-items: center;
-  /* background-color: rgb(31, 88, 88); */
   height: auto;
 }
 .card{
@@ -160,5 +156,4 @@ footer{
     display: none;
   }
 }
-/*# sourceMappingURL=styles.css.map */
 /*# sourceMappingURL=styles.css.map */

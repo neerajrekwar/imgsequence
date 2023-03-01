@@ -1,0 +1,165 @@
+// @import 'styles';
+* {
+  /*# sourceMappingURL=styles.css.map */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  color: black;
+  font-family: "Alata", sans-serif;
+}
+
+$color-background-primary: #7fb0fa4b;
+// --color-text-r: #F6511D;
+// --color-background-secondary-r: #00A6ED;
+// --color-background-r: #7FB800;
+// --border-radius-primary: 22px;
+
+header {
+  position: sticky;
+  /* border: 2px solid greenyellow; */
+  width: auto;
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  background-color: var(--color-background-primary-r);
+}
+
+body {
+  margin: 0 auto;
+  background: #284b63;
+  width: auto;
+  /* height: inherit; */
+}
+
+main {
+  /* border: 2px solid darkblue; */
+  margin: 0;
+  width: 100%;
+}
+
+nav {
+  color: rgb(0, 0, 0);
+  margin-right: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+}
+
+li {
+  margin: 10px;
+  list-style: none;
+  /* text-decoration-line: underline;	
+    text-decoration-thickness: 4px; */
+}
+
+a {
+  font-size: larger;
+  text-decoration: none;
+  color: greenyellow;
+}
+
+.nvlink {
+  position: relative;
+}
+
+.nvlink::before {
+  content: "";
+  position: absolute;
+  margin-bottom: -3px;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 4px;
+  background-color: greenyellow;
+  border-radius: 0px;
+  scale: 0 1;
+  transform-origin: left;
+  transition: scale 0.55s;
+}
+
+.nvlink:hover::before {
+  // text-decoration-line: underline;
+  // text-decoration-thickness: 4px;
+  scale: 1;
+}
+
+#logo {
+  margin-left: 0.8em;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-thickness: 4px;
+}
+
+.container {
+  background: rgba(25, 62, 117, 0.294);
+  background: #000;
+  border: 6px solid blanchedalmond;
+}
+.sub-container{
+  border: 2px solid turquoise;
+}
+
+h1{
+  color: #fcfcfc;
+  margin-bottom: 2rem;
+}
+
+.info-box {
+  // background: #fef;
+  border: 2px solid yellow;
+  margin: 12px;
+  padding: 20px;
+  display: flex;
+}
+.info-div{
+  
+  &text-btn{
+    display: inline-flex;
+  }
+}
+
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 420px;
+  margin: auto;
+}
+
+img {
+  max-width: 520px;
+  // max-height: 350px;
+}
+
+figcaption {
+  background-color: rgba(29, 29, 29, 0.459);
+  color: #fff;
+  font-family: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
+  .imp-comta {
+    display: inline-flex;
+    padding: 15px;
+    margin: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -74,7 +74,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(65, 116, 116);
+  background-color: rgba(93, 170, 41, 0.507);
   backdrop-filter: blur(4px);
   margin: 20px 20px 0px 20px;
   border-radius: 15px;

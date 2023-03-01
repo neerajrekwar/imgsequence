@@ -34,7 +34,6 @@ header {
 }
 
 body {
-  overflow: hidden;
   margin: 0;
   /* background: #284b63; */
   background: rgba(0, 3, 7, 0.753);
